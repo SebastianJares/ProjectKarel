@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karlovo dědictví – AI školení 2026</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Levý panel -->
+        <section class="left-panel">
+            <!-- Logo + název -->
+            <header class="logo-area">
+                <div class="logo-mark" aria-hidden="true"></div>
+                <div class="logo-text">
+                    <h1 class="main-title">Karlovo dědictví</h1>
+                    <p class="subtitle" data-i18n="subtitle">
+                        AI školení 2026
+                    </p>
+                </div>
+            </header>
+
+            <!-- Hlavní text / uvítání -->
+            <div class="welcome">
+                <h2 class="welcome-title" data-i18n="welcome">
+                    Vítejte na školení
+                </h2>
+                <p class="welcome-text" data-i18n="welcomeText">
+                    Vyberte oblast, které se chcete dnes věnovat.
+                </p>
+            </div>
+
+            <!-- MENU – každý blok = jedna „bublina“ -->
+            <nav class="menu">
+
+                <!-- Úvod do AI -->
+                <div class="menu-block" data-section="intro">
+                    <button class="menu-header" type="button">
+                        <div class="header-main">
+                            <span class="icon">🤖</span>
+                            <span class="label" data-i18n="introAI">Úvod do AI</span>
+                        </div>
+                        <span class="chevron">▾</span>
+                    </button>
+
+                    <div class="menu-sub">
+                        <div class="sub-menu">
+                            <!-- U Úvodu do AI NENÍ tlačítko Obsah -->
+                            <button class="sub-item" data-sub="structure" type="button">
+                                <span class="sub-icon">🧱</span>
+                                <span class="sub-label" data-i18n="subStructure">Kostra</span>
+                            </button>
+                            <button class="sub-item info-item" data-sub="info" type="button">
+                                <span class="sub-icon">ℹ️</span>
+                                <span class="sub-label" data-i18n="subInfo">Informace</span>
+                            </button>
+                        </div>
+                        <div class="info-details"></div>
+                    </div>
+                </div>
+
+                <!-- CopyWriter -->
+                <div class="menu-block" data-section="copywriter">
+                    <button class="menu-header" type="button">
+                        <div class="header-main">
+                            <span class="icon">✍️</span>
+                            <span class="label" data-i18n="copywriter">CopyWriter</span>
+                        </div>
+                        <span class="chevron">▾</span>
+                    </button>
+
+                    <div class="menu-sub">
+                        <div class="sub-menu">
+                            <button class="sub-item" data-sub="content" type="button">
+                                <span class="sub-icon">📄</span>
+                                <span class="sub-label" data-i18n="subContent">Obsah</span>
+                            </button>
+                            <button class="sub-item" data-sub="structure" type="button">
+                                <span class="sub-icon">🧱</span>
+                                <span class="sub-label" data-i18n="subStructure">Kostra</span>
+                            </button>
+                            <button class="sub-item info-item" data-sub="info" type="button">
+                                <span class="sub-icon">ℹ️</span>
+                                <span class="sub-label" data-i18n="subInfo">Informace</span>
+                            </button>
+                        </div>
+                        <div class="info-details"></div>
+                    </div>
+                </div>
+
+                <!-- Automatizace -->
+                <div class="menu-block" data-section="automation">
+                    <button class="menu-header" type="button">
+                        <div class="header-main">
+                            <span class="icon">⚙️</span>
+                            <span class="label" data-i18n="automation">Automatizace</span>
+                        </div>
+                        <span class="chevron">▾</span>
+                    </button>
+
+                    <div class="menu-sub">
+                        <div class="sub-menu">
+                            <button class="sub-item" data-sub="content" type="button">
+                                <span class="sub-icon">📄</span>
+                                <span class="sub-label" data-i18n="subContent">Obsah</span>
+                            </button>
+                            <button class="sub-item" data-sub="structure" type="button">
+                                <span class="sub-icon">🧱</span>
+                                <span class="sub-label" data-i18n="subStructure">Kostra</span>
+                            </button>
+                            <button class="sub-item info-item" data-sub="info" type="button">
+                                <span class="sub-icon">ℹ️</span>
+                                <span class="sub-label" data-i18n="subInfo">Informace</span>
+                            </button>
+                        </div>
+                        <div class="info-details"></div>
+                    </div>
+                </div>
+
+                <!-- Data a tabulky -->
+                <div class="menu-block" data-section="data">
+                    <button class="menu-header" type="button">
+                        <div class="header-main">
+                            <span class="icon">📊</span>
+                            <span class="label" data-i18n="dataTables">Data a tabulky</span>
+                        </div>
+                        <span class="chevron">▾</span>
+                    </button>
+
+                    <div class="menu-sub">
+                        <div class="sub-menu">
+                            <button class="sub-item" data-sub="content" type="button">
+                                <span class="sub-icon">📄</span>
+                                <span class="sub-label" data-i18n="subContent">Obsah</span>
+                            </button>
+                            <button class="sub-item" data-sub="structure" type="button">
+                                <span class="sub-icon">🧱</span>
+                                <span class="sub-label" data-i18n="subStructure">Kostra</span>
+                            </button>
+                            <button class="sub-item info-item" data-sub="info" type="button">
+                                <span class="sub-icon">ℹ️</span>
+                                <span class="sub-label" data-i18n="subInfo">Informace</span>
+                            </button>
+                        </div>
+                        <div class="info-details"></div>
+                    </div>
+                </div>
+
+                <!-- Sumarizace a vyhledávání -->
+                <div class="menu-block" data-section="summary">
+                    <button class="menu-header" type="button">
+                        <div class="header-main">
+                            <span class="icon">📚</span>
+                            <span class="label" data-i18n="summarySearch">Sumarizace a vyhledávání</span>
+                        </div>
+                        <span class="chevron">▾</span>
+                    </button>
+
+                    <div class="menu-sub">
+                        <div class="sub-menu">
+                            <button class="sub-item" data-sub="content" type="button">
+                                <span class="sub-icon">📄</span>
+                                <span class="sub-label" data-i18n="subContent">Obsah</span>
+                            </button>
+                            <button class="sub-item" data-sub="structure" type="button">
+                                <span class="sub-icon">🧱</span>
+                                <span class="sub-label" data-i18n="subStructure">Kostra</span>
+                            </button>
+                            <button class="sub-item info-item" data-sub="info" type="button">
+                                <span class="sub-icon">ℹ️</span>
+                                <span class="sub-label" data-i18n="subInfo">Informace</span>
+                            </button>
+                        </div>
+                        <div class="info-details"></div>
+                    </div>
+                </div>
+
+            </nav>
+
+            <!-- Spodní ovládání: jazyk + motiv -->
+            <footer class="controls">
+                <div class="language-switch">
+                    <label for="language-select" class="language-label" data-i18n="languageLabel">
+                        Jazyk
+                    </label>
+                    <select id="language-select">
+                        <option value="cs">Česky</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+
+                <button id="theme-toggle" class="theme-toggle" aria-label="Přepnout motiv">
+                    <span class="theme-icon sun">☀️</span>
+                    <span class="theme-icon moon">🌙</span>
+                </button>
+            </footer>
+        </section>
+
+        <!-- Pravý panel -->
+        <section class="right-panel">
+            <div class="hero-overlay"></div>
+        </section>
+    </div>
+
+    <!-- MODAL PRO OBSAH / KOSTRU -->
+    <div class="modal-overlay" id="text-modal" hidden>
+        <div class="modal-window">
+            <div class="modal-header">
+                <span class="modal-title" id="modal-title"></span>
+                <button class="modal-close" id="modal-close" aria-label="Zavřít">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-content" id="modal-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
