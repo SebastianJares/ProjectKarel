@@ -54,7 +54,7 @@ const trainingDetails = {
         author: { cs: "Sebastian Jareš", en: "Sebastian Jareš" }
     },
     data: {
-        duration: { cs: "4 hodiny", en: "4 hours" },
+        duration: { cs: "2 hodiny", en: "2 hours" },
         trainer: {
             cs: "IT (Lukáš Rataj a jeho tým)",
             en: "IT (Lukáš Rataj and his team)"
