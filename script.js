@@ -19,8 +19,8 @@ const translations = {
     },
     en: {
         subtitle: "AI Training 2026",
-        welcome: "Welcome to the training",
-        welcomeText: "Choose the area you want to focus on today.",
+        welcome: "The Secret of Project Karel",
+        welcomeText: "A former employee, the legendary Karel, developed a perfect work system, the so-called “Golden Workflow”, thanks to which he managed to do all the work of four people by himself in just 60 minutes per hour. Before he left, however, he encrypted this system into four parts and hid them in the company data, so that he would leave his entire legacy behind, but at the same time not hand it over for free.",
         introAI: "Intro to AI",
         copywriter: "Copywriter",
         automation: "Automation",
